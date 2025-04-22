@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andi M. Fachrurridho A.</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/logo/logo1.png" type="image/x-icon">
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles2.css">
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/lang2.js"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-97PCD629PB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-97PCD629PB');
+    </script>
+
+</head>
+
+<body id="_body">
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a class="nav-logo"><button data-language="IND"><img width="22px" src="img/lang/id.ico" alt="ID"></button> <span class="active-link">|</span> <button data-language="ENG"><img width="22px" src="img/lang/en.ico" alt="US"></button></a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fas fa-home nav-link-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-user nav-link-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fas fa-file-alt nav-link-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <i class="fas fa-briefcase nav-link-icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">
+                            <i class="fas fa-image nav-link-icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope nav-link-icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav-close" id="nav-close"></i>
+            </div>
+            <div class="nav-btns">
+
+                <!-- Theme change button -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://api.whatsapp.com/send?phone=6282290584403&text=Hi!%20Andi" target="_blank" class="home-social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://twitter.com/andi_fach" target="_blank" class="home-social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <!-- <a href="https://github.com/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-github"></i>
+                        </a> -->
+                    </div>
+                    <div class="home-img">
+                        <svg class="home-blob" viewBox="0 5 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <circle cx="50" cy="50" r="40" />
+                                <image class="home-blob-img" x='12' y='18' xlink:href="img/logo/logo1.png" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home-data">
+                        <h1 class="home-data-title">Hi, I'am Andi</h1>
+                        <h3 class="home-data-subtitle">Full-stack Web Developer</h3>
+                        <p class="home-data-description" data-translate="descHome"></p>
+                        <a href="#contact" class="button button-flex">
+                            Contact Me <i class="fab fa-rocketchat button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button-flex">
+                        <span class="home-scroll-button-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home-scroll-button-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My introduction</span>
+
+            <div class="about-container container grid">
+                <div class="about-container-img">
+                    <img src="img/me/FotoJas.jpg" alt="About" class="about-container-imgAlt">
+                </div>
+
+                <div class="about-container-data">
+                    <p class="about-container-data-description" data-translate="descAbout"></p>
+
+                    <div class="about-container-data-info">
+                        <div data-translate="list1About">
+                            
+                        </div>
+                        <div data-translate="list2About">
+                            
+                        </div>
+                        <div data-translate="list3About">
+                            
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <!-- <a download="" href="pdf/Resume-ID.pdf" class="button button-flex">
+                            Download CV <i class="fas fa-download button-icon"></i>
+                        </a> -->
+                        <span class="button button-flex button-small cv-button">
+                            Download CV
+                            <i class="fas fa-download button-icon"></i>
+                        </span>
+                        <div class="cv-modal">
+                            <div class="cv-modal-content">
+                                <h4 class="cv-modal-title">Curriculum Vitae</h4>
+                                <i class="fas fa-times cv-modal-close"></i>
+                                <a download="" href="pdf/Resume-ID.pdf" class="button button-flex button-small" target="_blank">
+                                    Indonesia <i class="fas fa-download button-icon"></i>
+                                </a>
+                                <a download="" href="pdf/Resume-EN.pdf" class="button button-flex button-small" target="_blank">
+                                    English<i class="fas fa-download button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My technical level</span>
+
+            <div class="skills-container container grid">
+                <div>
+                    <!-- SKILLS 1 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-code skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Front-End Developer</h1>
+                                <!-- <span class="skills-subtitle" data-translate="sub1Skill"></span> -->
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">JavaScript</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-js"></span>
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">85%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-react"></span>
+                                </div>
+                            </div> -->
+
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS 2 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-server skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Back-End Developer</h1>
+                                <!-- <span class="skills-subtitle" data-translate="sub2Skill"></span> -->
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">PHP</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">MySql</h3>
+                                    <span class="skills-number">75%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-mysql"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <!-- SKILLS 3 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-swatchbook skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Designer</h1>
+                                <!-- <span class="skills-subtitle" data-translate="sub3Skill"></span> -->
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Photoshop</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-ps"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Adobe Illustrator</h3>
+                                    <span class="skills-number">50%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-ai"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS 4 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-language skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Language</h1>
+                                <!-- <span class="skills-subtitle">-</span> -->
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Indonesia</h3>
+                                    <span class="skills-number">Advanced</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-langID"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">English</h3>
+                                    <span class="skills-number">Elementary</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-langEN"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Japan</h3>
+                                    <span class="skills-number">Beginner</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-langJP"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <!-- SKILLS 5 -->
+                    <div class="skills-container-content skills-close">
+
+                        <div class="skills-container-header">
+                            <i class="fas fa-project-diagram skills-icon"></i>
+                            <div>
+                                <h1 class="skills-title">Framework</h1>
+                                <!-- <span class="skills-subtitle" data-translate="sub5Skill"></span> -->
+                            </div>
+                            <i class="fas fa-angle-down skills-arrow"></i>
+                        </div>
+
+                        <div class="skills-list grid">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Bootstrap</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-BS"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">ReactJS</h3>
+                                    <span class="skills-number">40%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-rJS"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Codeigniter</h3>
+                                    <span class="skills-number">50%</span>
+                                </div>
+                                <div class="skills-bar">
+                                    <span class="skills-percentage skills-CI"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <h2 class="section-title">Qualification</h2>
+            <span class="section-subtitle">My personal journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-tabs-button button-flex qualification-active" data-target="#education">
+                        <i class="fas fa-graduation-cap qualification-icon"></i>
+                        <span data-translate="titleEduc"> </span>
+                    </div>
+                    <div class="qualification-tabs-button button-flex" data-target="#work">
+                        <i class="fas fa-briefcase qualification-icon"></i>
+                        <span data-translate="titleWork"> </span>
+                    </div>
+                </div>
+                <div class="qualification-sections">
+                    <!-- QUALIFICATION Education -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title3Educ"></h3>
+                                <span class="qualification-subtitle" data-translate="sub3Educ"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2018 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <!-- <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title2Educ"></h3>
+                                <span class="qualification-subtitle" data-translate="sub2Educ"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2016 - 2018
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- QUALIFICATION 3 -->
+                        <!-- <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title1Educ"></h3>
+                                <span class="qualification-subtitle" data-translate="sub1Educ"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2013 - 2016
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div> -->
+                        <!--  -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title1Educ"></h3>
+                                <span class="qualification-subtitle" data-translate="sub1Educ"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2013 - 2016
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QUALIFICATION Work -->
+                    <div class="qualification-content" data-content id="work">
+                        <!-- QUALIFICATION 1 -->
+                        <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title3Work"></h3>
+                                <span class="qualification-subtitle" data-translate="sub3Work"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2022 to 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+                        <!-- QUALIFICATION 2 -->
+                        <div class="qualification-data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title2Work"></h3>
+                                <span class="qualification-subtitle" data-translate="sub2Work"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2021 - 2022
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                         <!-- QUALIFICATION 3 -->
+                         <div class="qualification-data">
+                            <div class="qualification-data-alt">
+                                <h3 class="qualification-title" data-translate="title1Work"></h3>
+                                <span class="qualification-subtitle" data-translate="sub1Work"></span>
+                                <div class="qualification-calendar">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2018 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <!-- <span class="qualification-line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <h2 class="section-title">Services</h2>
+            <span class="section-subtitle" data-translate="subService"></span>
+
+            <div class="services-container container grid">
+                <!-- SERVICES 1 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-border-all services-icon"></i>
+                        <h3 class="services-title" data-translate="title1Service"></h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title" data-translate="title1Service"></h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listDesain1Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listDesain2Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listDesain3Service"></p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 2 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-arrows-alt-h services-icon"></i>
+                        <h3 class="services-title">Frontend<br> Developer</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Frontend Developer</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listFront1Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listFront2Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listFront3Service"></p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SERVICES 3 -->
+                <div class="services-content">
+                    <div>
+                        <i class="fas fa-laptop-code services-icon"></i>
+                        <h3 class="services-title">Backend<br> Developer</h3>
+                    </div>
+
+                    <span class="button button-flex button-small button-link services-button">
+                        View More
+                        <i class="fas fa-arrow-right button-icon"></i>
+                    </span>
+
+                    <div class="services-modal">
+                        <div class="services-modal-content">
+                            <h4 class="services-modal-title">Backend Developer</h4>
+                            <i class="fas fa-times services-modal-close"></i>
+
+                            <div class="services-modal-services grid">
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listBack1Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listBack2Service"></p>
+                                </li>
+                                <li class="services-modal-service">
+                                    <i class="far fa-check-circle services-modal-icon"></i>
+                                    <p data-translate="listBack3Service"></p>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <span class="section-subtitle">Recent Work</span>
+
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO 1 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/tunas.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Website Tunas Morasi</h3>
+                            <p class="portfolio-description" data-translate="desc1Portfolio"></p>
+                            <!-- <a href="https://pt.tunasmorasi.com" class="button button-flex button-small portfolio-button" target="_blank">
+                                link <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 2 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/e-FMR.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP e-FMR (Web)</h3>
+                            <p class="portfolio-description" data-translate="desc2Portfolio"></p>
+                            <!-- <a href="http://e-fmr.rf.gd" target="_blank" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 3 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/getyourjob.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP GYJ (Web & Mobile)</h3>
+                            <p class="portfolio-description" data-translate="desc3Portfolio">
+                               
+                            </p>
+                            <!-- <a href="http://getyourjob.rf.gd" target="_blank"  class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 4 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/jakon.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP JA.ID (Web & Mobile)</h3>
+                            <p class="portfolio-description" data-translate="desc4Portfolio">
+                                
+                            </p>
+                            <!-- <a href="http://jakonidaman.rf.gd" target="_blank" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 5 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/gumus.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP GUMUS (Web & Mobile)</h3>
+                            <p class="portfolio-description" data-translate="desc5Portfolio">
+                            </p>
+                            <!-- <a href="http://gumus.rf.gd" target="_blank" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 6 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/kerka.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">E-Commerce KerKa (Mobile)</h3>
+                            <p class="portfolio-description" data-translate="desc6Portfolio">
+                                
+                            </p>
+                            <!-- <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 7 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/FR-PTAK.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP FR-PTAK (Web)</h3>
+                            <p class="portfolio-description" data-translate="desc7Portfolio">
+                            </p>
+                            <!-- <a href="http://jakonidaman.rf.gd/bmpr" target="_blank" class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 8 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/e-rab.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP E-RAB (Web)</h3>
+                            <p class="portfolio-description" data-translate="desc8Portfolio">
+                            </p>
+                            <!-- <a href="http://erab-ftik.rf.gd" target="_blank"class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO 9 -->
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio/siskrip.png" alt="Portfolio" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">APP SISKRIP (Web)</h3>
+                            <p class="portfolio-description" data-translate="desc9Portfolio">
+                                
+                                <!-- <br>
+                                Akses login : 
+                                <br>
+                                Username : @admin | Password : @123
+                                <br>
+                                Username : admin | Password : 123
+                                <br>
+                                Username : pai | Password : 123
+                                <br>
+                                Username : dosen1 | Password : 123 -->
+                            </p>
+                            <!-- <a href="#" target="_blank"class="button button-flex button-small portfolio-button">
+                                Demo <i class="fas fa-arrow-right button-icon"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrow -->
+                <div class="swiper-button-next">
+                    <i class="fas fa-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <br>
+            <!-- <span class="section-subtitle">Get in touch</span> -->
+
+            <div class="contact-container container grid">
+                <div class="contact-items">
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title"><i class="fas fa-phone contact-icon"></i>Phone</h3>
+                            <span class="contact-subtitle">+62-822-9058-4403</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title"><i class="fas fa-envelope contact-icon"></i>Email</h3>
+                            <span class="contact-subtitle">andifachrurridho@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-information">
+                        <div>
+                            <h3 class="contact-title"><i class="fas fa-map-marker-alt contact-icon"></i>Location</h3>
+                            <span class="contact-subtitle">Palu City - Central Sulawesi - Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <form action="" class="contact-form grid">
+                    <div class="contact-inputs grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Name</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Email</label>
+                            <input type="email" class="contact-input">
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Project</label>
+                            <input type="text" class="contact-input">
+                        </div>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Message</label>
+                            <textarea style="resize: none;" rows="5" class="contact-input"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <div class="contact-button">
+                    <a href="#" class="button button-flex">
+                        Send Message <i class="fab fa-telegram-plane button-icon"></i>
+                    </a>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container grid">
+                <ul class="footer-links">
+                    <li>
+                        <a href="#about" class="footer-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="footer-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer-link">Portfolio</a>
+                    </li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://api.whatsapp.com/send?phone=6282290584403&text=Hi!%20Andi" target="_blank">
+                        <i class="fab fa-whatsapp footer-social"></i>
+                    </a>
+                    <a href="https://twitter.com/andi_fach" target="_blank">
+                        <i class="fab fa-twitter footer-social"></i>
+                    </a>
+                    <a href="https://www.instagram.com/l4b.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <i class="fab fa-instagram footer-social"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copy">&#169; A.M.F.A</p>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup-icon"></i>
+    </a>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="js/swiper-bundle.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main2.js"></script>
+</body>
+
+</html>
