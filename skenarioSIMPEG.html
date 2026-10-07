@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Skenario Integrasi SIMPEG - PT Nusantara Digital Energi</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #0b132b; color: #ffffff; padding: 20px; min-width: 1400px; }
+    
+    /* Header */
+    .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #1c2541; padding-bottom: 10px; margin-bottom: 20px; }
+    .header h1 { font-size: 22px; text-transform: uppercase; letter-spacing: 1px; color: #6fffe9; }
+    .header .subtitle { font-size: 12px; color: #5bc0be; }
+
+    /* Layout Main Grid */
+    .container { display: grid; grid-template-columns: 280px 1fr 300px; gap: 15px; }
+
+    /* Common Card Styling */
+    .card { background: #1c2541; border: 1px solid #3a506b; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+    .card-title { font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+    .card-content { font-size: 11px; color: #c0c0c0; line-height: 1.4; }
+    .card-content li { margin-left: 15px; margin-bottom: 3px; }
+
+    /* Panel Left - Colors */
+    .p-people { border-left: 4px solid #00b4d8; }
+    .p-hardware { border-left: 4px solid #7209b7; }
+    .p-software { border-left: 4px solid #4361ee; }
+    .p-network { border-left: 4px solid #4cc9f0; }
+    .p-procedure { border-left: 4px solid #f72585; }
+
+    /* Panel Center - Layers */
+    .panel-center { display: flex; flex-direction: column; gap: 10px; }
+    .layer-box { border: 1px dashed #3a506b; border-radius: 8px; padding: 10px; background: rgba(28, 37, 65, 0.4); text-align: center; }
+    .layer-title { font-size: 11px; font-weight: bold; color: #5bc0be; margin-bottom: 10px; text-transform: uppercase; }
+    
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+    .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+
+    .service-node { background: #0b132b; border: 1px solid #3a506b; border-radius: 6px; padding: 10px 5px; font-size: 10px; font-weight: 500; text-align: center; }
+    .middleware-bar { background: linear-gradient(90deg, #1d3557, #457b9d); border: 1px solid #a8dadc; border-radius: 6px; padding: 10px; text-align: center; font-size: 11px; font-weight: bold; color: #f1faee; }
+
+    /* Panel Right - Colors */
+    .p-right { background: #1c2541; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+    .right-box { border-radius: 6px; padding: 10px; font-size: 10px; }
+    .bg-purple { background: #3c096c; border-left: 4px solid #9d4edd; }
+    .bg-green { background: #134611; border-left: 4px solid #38b000; }
+    .bg-blue { background: #003049; border-left: 4px solid #669bbc; }
+    .bg-orange { background: #7f4f24; border-left: 4px solid #a3b18a; }
+    .bg-red { background: #540b0e; border-left: 4px solid #e63946; }
+    .bg-dark { background: #0f172a; border-left: 4px solid #94a3b8; }
+
+    .arrow { text-align: center; color: #5bc0be; font-size: 14px; margin: -5px 0; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div>
+      <h1>Skenario Integrasi Sistem Informasi Kepegawaian (SIMPEG)</h1>
+      <div style="font-size: 14px; color: #ffffff; font-weight: bold; margin-top: 3px;">PT Nusantara Digital Energi</div>
+    </div>
+    <div class="subtitle">Data-Driven • High Quality HR Information • Business Process Integration</div>
+  </div>
+
+  <div class="container">
+    
+    <!-- PANEL KIRI -->
+    <div class="panel-left">
+      <div style="font-size: 11px; font-weight: bold; color: #8d99ae; margin-bottom: 8px;">KOMPONEN SISTEM INFORMASI</div>
+      
+      <div class="card p-people">
+        <div class="card-title" style="color: #00b4d8;">PEOPLE</div>
+        <div class="card-content">
+          <ul>
+            <li>Admin HR & Payroll</li>
+            <li>Manajer / Supervisor</li>
+            <li>Karyawan (End-User)</li>
+            <li>Tim Developer & IT Auditor</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card p-hardware">
+        <div class="card-title" style="color: #9d4edd;">HARDWARE</div>
+        <div class="card-content">
+          <ul>
+            <li>Server Cloud (AWS/GCP) & On-Prem AD</li>
+            <li>Mesin Absensi Biometrik</li>
+            <li>Mobile Device Karyawan</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card p-software">
+        <div class="card-title" style="color: #4361ee;">SOFTWARE</div>
+        <div class="card-content">
+          <ul>
+            <li>Core SIMPEG, ATS, Payroll</li>
+            <li>Absensi Mobile, Module KPI</li>
+            <li>Middleware / API Gateway</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card p-network">
+        <div class="card-title" style="color: #4cc9f0;">NETWORK</div>
+        <div class="card-content">
+          <ul>
+            <li>API Gateway, VPN Cabang</li>
+            <li>Enkripsi SSL/TLS, Firewall</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card p-procedure">
+        <div class="card-title" style="color: #f72585;">PROCEDURE</div>
+        <div class="card-content">
+          <ul>
+            <li>SOP Onboarding & Offboarding</li>
+            <li>Kebijakan Data Privasi (UU PDP)</li>
+            <li>Audit Trail & SLA Integration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- PANEL TENGAH -->
+    <div class="panel-center">
+      <div style="font-size: 11px; font-weight: bold; color: #8d99ae; text-align: center;">BUSINESS PROCESS MODEL - SIMPEG INTEGRATION</div>
+
+      <!-- Layer 1 -->
+      <div class="layer-box">
+        <div class="layer-title">LAYER 1 - USER TOUCHPOINT & PORTAL</div>
+        <div class="grid-3">
+          <div class="service-node">Web Portal SIMPEG<br><small style="color:#8d99ae;">(Self-Service Portal)</small></div>
+          <div class="service-node">Mobile HR App<br><small style="color:#8d99ae;">(Absensi & Cuti)</small></div>
+          <div class="service-node">ATS Rekrutmen<br><small style="color:#8d99ae;">(Applicant Tracking)</small></div>
+        </div>
+      </div>
+
+      <div class="arrow">▼</div>
+
+      <!-- Middleware -->
+      <div class="middleware-bar">
+        API GATEWAY - Load Balancer • Security (OAuth2 / JWT / SSO Active Directory)
+      </div>
+
+      <div class="arrow">▼</div>
+
+      <!-- Layer 2 -->
+      <div class="layer-box">
+        <div class="layer-title">LAYER 2 - CORE BUSINESS SERVICES (Microservices Architecture)</div>
+        <div class="grid-6">
+          <div class="service-node">Employee Management</div>
+          <div class="service-node">Time & Attendance</div>
+          <div class="service-node">Performance & KPI</div>
+          <div class="service-node">Payroll & Tax</div>
+          <div class="service-node">Learning & Dev</div>
+          <div class="service-node">Security & HR Audit</div>
+        </div>
+      </div>
+
+      <div class="arrow">▼</div>
+
+      <!-- Layer 3 -->
+      <div class="layer-box">
+        <div class="layer-title">LAYER 3 - DATA & ANALYTICS PLATFORM (Data-Driven Strategy)</div>
+        <div class="grid-5">
+          <div class="service-node">Data Warehouse HR</div>
+          <div class="service-node">Real-Time Stream</div>
+          <div class="service-node">HR Executive Dashboard</div>
+          <div class="service-node">AI / ML Engine</div>
+          <div class="service-node">Data Quality Gateway</div>
+        </div>
+      </div>
+
+      <div class="arrow">▼</div>
+
+      <!-- Infrastructure -->
+      <div class="middleware-bar" style="background: linear-gradient(90deg, #2b2d42, #4a4e69); border-color: #8d99ae;">
+        INFRASTRUCTURE - Hybrid Cloud (AWS/GCP) • Database Cluster (PostgreSQL) • Backup & DR
+      </div>
+    </div>
+
+    <!-- PANEL KANAN -->
+    <div class="p-right">
+      <div style="font-size: 11px; font-weight: bold; color: #8d99ae;">STRATEGI TI & DEPENDENSI</div>
+
+      <div class="right-box bg-purple">
+        <div style="font-weight: bold; margin-bottom: 3px;">DATA GOVERNANCE</div>
+        Validasi & standardisasi data di setiap layer; audit trail otomatis untuk kepatuhan UU PDP.
+      </div>
+
+      <div class="right-box bg-green">
+        <div style="font-weight: bold; margin-bottom: 3px;">HIGH QUALITY HR INFO</div>
+        Data Quality Gateway memastikan akurasi data gaji, pajak, dan profil 100% konsisten.
+      </div>
+
+      <div class="right-box bg-blue">
+        <div style="font-weight: bold; margin-bottom: 3px;">REAL-TIME ANALYTICS</div>
+        Stream processing untuk rekapitulasi lembur real-time & prapemrosesan payroll instan.
+      </div>
+
+      <div class="right-box bg-orange">
+        <div style="font-weight: bold; margin-bottom: 3px;">AI/ML INTEGRATION</div>
+        Prediksi risiko turnover karyawan & deteksi kecurangan (fraud) absensi berbasis ML.
+      </div>
+
+      <div class="right-box bg-red">
+        <div style="font-weight: bold; margin-bottom: 3px;">SECURITY LAYER</div>
+        OAuth2, SSO, Enkripsi end-to-end, Zero-Trust Architecture, & kepatuhan audit TI.
+      </div>
+
+      <div class="right-box bg-dark">
+        <div style="font-weight: bold; margin-bottom: 3px; color: #e2e8f0;">DEPENDENSI KUNCI</div>
+        • <b>People ↔ Procedure:</b> SOP HR & Approval<br>
+        • <b>Hardware ↔ Network:</b> Latensi & SLA API<br>
+        • <b>Software ↔ Data:</b> Master Data SSOT
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
